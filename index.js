@@ -4,7 +4,7 @@ const mongoose=require('mongoose');
 const app=express();
 
 //connecting db
-mongoose.connect("mongodb://localhost:27017/gymManagementSystem").then(()=>{
+mongoose.connect("mongodb://localhost:27017/rough").then(()=>{
     console.log("DB connected");
 }).catch((error)=>{
     console.log("Error occured",error);
